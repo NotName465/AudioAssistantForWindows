@@ -1,0 +1,26 @@
+{
+  "Путь Доты": {
+    "value": "r\"C:\\Users\\user\\Desktop\\Dota 2.url\"",
+    "protected": true
+  },
+  "Путь Браузера": {
+    "value": "r\"C:\\Users\\user\\AppData\\Local\\Programs\\Opera GX\\opera.exe\"",
+    "protected": true
+  },
+  "Перемещение курсора(в пикселях)": {
+    "value": "100",
+    "protected": true
+  },
+  "Пролистывание страницы(от 1 до 650)": {
+    "value": "650",
+    "protected": true
+  },
+  "Имя голосового помощника": {
+    "value": "Один",
+    "protected": true
+  },
+  "Время для перехода в режим ожидания(в секундах)": {
+    "value": "10",
+    "protected": true
+  }
+}

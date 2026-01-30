@@ -1,0 +1,289 @@
+{
+  "commands": [
+    {
+      "nameForGUI": "Открыть браузер",
+      "name": "open_browser",
+      "keywords": [
+        "открой",
+        "браузер"
+      ],
+      "function": "openBrowser",
+      "args": [
+        "browserUrl"
+      ],
+      "protected": true
+    },
+    {
+      "nameForGUI": "Закрыть браузер",
+      "name": "close_browser",
+      "keywords": [
+        "закрой",
+        "браузер"
+      ],
+      "function": "closeBrowser",
+      "args": [
+        "browserUrl"
+      ],
+      "protected": true
+    },
+    {
+      "nameForGUI": "Открыть Доту",
+      "name": "open_dota",
+      "keywords": [
+        "открой",
+        "доту"
+      ],
+      "function": "openDota",
+      "args": [],
+      "protected": true
+    },
+    {
+      "nameForGUI": "Закрыть Доту",
+      "name": "close_dota",
+      "keywords": [
+        "закрой",
+        "доту"
+      ],
+      "function": "closeDota",
+      "args": [],
+      "protected": true
+    },
+    {
+      "nameForGUI": "Поиск в интернете",
+      "name": "search_web",
+      "keywords": [
+        "найди",
+        "в",
+        "интернете"
+      ],
+      "function": "open_browser_and_search",
+      "args": [
+        "browserUrl",
+        "remove_keywords(text_str)"
+      ],
+      "protected": true
+    },
+    {
+      "nameForGUI": "Создать вкладку браузера",
+      "name": "new_tab",
+      "keywords": [
+        "создай",
+        "вкладку"
+      ],
+      "function": "new_tab",
+      "args": [],
+      "protected": true
+    },
+    {
+      "nameForGUI": "Закрыть вкладку браузера",
+      "name": "close_tab",
+      "keywords": [
+        "закрой",
+        "вкладку"
+      ],
+      "function": "close_tab",
+      "args": [],
+      "protected": true
+    },
+    {
+      "nameForGUI": "Открыть вкладку браузера",
+      "name": "go_to_tab",
+      "keywords": [
+        "открой",
+        "вкладку"
+      ],
+      "function": "go_to_tab",
+      "args": [
+        "remove_keywords(text_str)"
+      ],
+      "protected": true
+    },
+    {
+      "nameForGUI": "Прокрутка колёсиком мыши вниз",
+      "name": "scroll_down",
+      "keywords": [
+        "прокрути",
+        "вниз"
+      ],
+      "function": "scroll_down",
+      "args": [],
+      "protected": true
+    },
+    {
+      "nameForGUI": "Прокрутка колёсиком мыши вверх",
+      "name": "scroll_up",
+      "keywords": [
+        "прокрути",
+        "вверх"
+      ],
+      "function": "scroll_up",
+      "args": [],
+      "protected": true
+    },
+    {
+      "nameForGUI": "Включить/выключить звук",
+      "name": "mute",
+      "keywords": [
+        "включи",
+        "выключи",
+        "звук"
+      ],
+      "function": "mute",
+      "args": [],
+      "protected": true
+    },
+    {
+      "nameForGUI": "Сделать звук громче",
+      "name": "volume_up",
+      "keywords": [
+        "громче"
+      ],
+      "function": "volume_up",
+      "args": [],
+      "protected": true
+    },
+    {
+      "nameForGUI": "Сделать звук тише",
+      "name": "volume_down",
+      "keywords": [
+        "тише"
+      ],
+      "function": "volume_down",
+      "args": [],
+      "protected": true
+    },
+    {
+      "nameForGUI": "Переместить мышь вправо",
+      "name": "right",
+      "keywords": [
+        "вправо"
+      ],
+      "function": "right",
+      "args": [
+        "extract_number(text_list)"
+      ],
+      "protected": true
+    },
+    {
+      "nameForGUI": "Переместить мышь влево",
+      "name": "left",
+      "keywords": [
+        "влево"
+      ],
+      "function": "left",
+      "args": [
+        "extract_number(text_list)"
+      ],
+      "protected": true
+    },
+    {
+      "nameForGUI": "Переместить мышь вниз",
+      "name": "down",
+      "keywords": [
+        "вниз"
+      ],
+      "function": "down",
+      "args": [
+        "extract_number(text_list)"
+      ],
+      "protected": true
+    },
+    {
+      "nameForGUI": "Переместить мышь вверх",
+      "name": "up",
+      "keywords": [
+        "вверх"
+      ],
+      "function": "up",
+      "args": [
+        "extract_number(text_list)"
+      ],
+      "protected": true
+    },
+    {
+      "nameForGUI": "Левый клик мышкой",
+      "name": "left_click",
+      "keywords": [
+        "левый",
+        "клик"
+      ],
+      "function": "left_click",
+      "args": [],
+      "protected": true
+    },
+    {
+      "nameForGUI": "Правый клик мышкой",
+      "name": "right_click",
+      "keywords": [
+        "правый",
+        "клик"
+      ],
+      "function": "right_click",
+      "args": [],
+      "protected": true
+    },
+    {
+      "nameForGUI": "Двойной клик мышкой",
+      "name": "double_click",
+      "keywords": [
+        "двойной",
+        "клик"
+      ],
+      "function": "double_click",
+      "args": [],
+      "protected": true
+    },
+    {
+      "nameForGUI": "Открыть танки",
+      "name": "custom_open_открыть_танки",
+      "keywords": [
+        "открой",
+        "танки"
+      ],
+      "function": "AbsolutStarter",
+      "args": [
+        "\"C:\\Users\\user\\Desktop\\TerraTechWin64.exe.lnk\""
+      ],
+      "protected": false
+    },
+    {
+      "nameForGUI": "Закрой танки",
+      "name": "custom_close_закрой_танки",
+      "keywords": [
+        "закрыть",
+        "танки"
+      ],
+      "function": "AbsolutCloser",
+      "args": [
+        "\"C:\\Users\\user\\Desktop\\TerraTechWin64.exe.lnk\""
+      ],
+      "protected": false
+    },
+    {
+      "nameForGUI": "Открыть завод",
+      "name": "custom_open_открыть_завод",
+      "keywords": [
+        "открой",
+        "завод"
+      ],
+      "function": "AbsolutStarter",
+      "args": [
+        "\"C:\\GOG Games\\bin\\x64\\factorio.exe\""
+      ],
+      "protected": false
+    },
+    {
+      "nameForGUI": "Закрыть завод",
+      "name": "custom_close_закрыть_завод",
+      "keywords": [
+        "закрыть",
+        "завод"
+      ],
+      "function": "AbsolutCloser",
+      "args": [
+        "\"C:\\GOG Games\\bin\\x64\\factorio.exe\""
+      ],
+      "protected": false
+    }
+  ]
+}
